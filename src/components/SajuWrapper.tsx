@@ -4,7 +4,7 @@ type SajuWrapperType = {
 
 const SajuWrapper = ({ children }: SajuWrapperType) => {
   return (
-    <div className="relative flex flex-col items-center mt-[-30px] mx-[10px] h-screen border-3 border-line-black z-200 bg-background-beige">
+    <div className="relative flex flex-col items-center mt-[-30px] mx-[10px] pb-[40px] border-3 border-line-black z-200 bg-background-beige">
       <div className="absolute top-0 w-full h-[8px] border-b-1 border-line-navy" />
       <div className="absolute top-0 left-0 h-full w-[8px] border-r-1 border-line-navy" />
       <div className="absolute top-0 right-0 h-full w-[8px] border-l-1 border-line-navy" />
