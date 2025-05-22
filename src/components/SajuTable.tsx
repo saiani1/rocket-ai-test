@@ -13,13 +13,22 @@ const SajuTable = ({ sajuData, userData }: SajuTableType) => {
   return (
     <SajuWrapper>
       <div className="flex flex-col items-center gap-y-1 mt-[40px] text-font-title">
-        <p>{userData.name}님의 사주</p>
-        <p className="text-[20px] font-semibold tracking-widest">
+        <p className="text-[clamp(12px,4.2vw,18px)]">
+          {userData.name}님의 사주
+        </p>
+        <p className="mt-[-4px] text-[clamp(14px,4.5vw,22px)] font-semibold tracking-widest">
           {userData.birth}
         </p>
       </div>
       <div className="mt-[30px] w-full px-[20px]">
         <table className="w-full">
+          <colgroup>
+            <col style={{ width: "10%" }} />
+            <col style={{ width: "22.5%" }} />
+            <col style={{ width: "22.5%" }} />
+            <col style={{ width: "22.5%" }} />
+            <col style={{ width: "22.5%" }} />
+          </colgroup>
           <thead>
             <tr>
               {thText.map((th, i) => (
