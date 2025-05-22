@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+@theme {
+  --color-font-saju: #000000;
+  --color-font-title: #424242;
+
+  --color-background-black: #2f2f2f;
+  --color-background-red: #c23030;
+  --color-background-turquoise: #18868c;
+  --color-background-beige: #f5f3ec;
+
+  --color-line-black: #1b2f49;
+  --color-line-navy: #2b557e;
+  --color-line-gray: #8a8a8a;
+
+  --color-gradient-start: #5b5247;
+  --color-gradient-end: #937c5f;
+
+  --color-gradient-bottom: #f3f2ef;
+  --text-shadow-outline: 1px 1px 0 white, -1px -1px 0 white, 1px -1px 0 white,
+    -1px 1px 0 white;
+}
