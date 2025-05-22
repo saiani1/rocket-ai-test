@@ -12,7 +12,7 @@ const CommonTr = ({ data }: CommonTrType) => {
       {(data.rows as SajuRowType[]).map((item, i) => (
         <td
           key={`commontd-${i}`}
-          className={`p-2 bg-white ${
+          className={`py-2 bg-white ${
             i === 3 ? "border-r-1" : "border-r-[0.5px]"
           }`}
         >
