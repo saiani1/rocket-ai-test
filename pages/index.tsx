@@ -24,7 +24,7 @@ const Home = () => {
         <div>
           <img
             src="/background-gradient1.png"
-            className="absolute bottom-[-100px] left-[-20px] w-[345.65px] h-[336.32] z-1"
+            className="absolute bottom-[-100px] left-[-20px] w-[345.65px] h-[447px] z-1"
           />
           <img
             src="/background-gradient2.png"
