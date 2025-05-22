@@ -1,4 +1,4 @@
-export const backgroundText = `甲乙丙丁戊己\n庚辛壬癸子丑\n寅卯辰巳午未\n申酉戌亥甲乙`;
+export const backgroundText = `甲乙丙丁戊己\n庚辛壬癸子丑\n寅卯辰巳午未\n申酉戌亥甲乙\n甲乙丙丁戊己\n庚辛壬癸子丑\n寅卯辰巳午未\n申酉戌亥甲乙`;
 export const userData = {
   name: "김로켓",
   birth: "1980년 8월 27일 08:10",
