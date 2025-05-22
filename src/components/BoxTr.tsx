@@ -31,25 +31,21 @@ const BoxTr = ({ data }: BoxTrType) => {
       {(data.rows as SajuBoxRowType[]).map((item, i) => (
         <td
           key={`boxtd-${i}`}
-          className={`p-2 bg-white ${
+          className={`p-[5px] bg-white ${
             i === 3 ? "border-r-1" : "border-r-[0.5px]"
           }`}
         >
           <div className="w-full flex justify-center">
             <div
-              className={`relative flex flex-col justify-center items-center w-[55px] h-[55px] ${backgroundColor(
+              className={`relative flex flex-col justify-center items-center w-full aspect-square ${backgroundColor(
                 item.tdText1
               )} rounded-[12.5px]`}
             >
-              <span className="absolute top-[2px] text-[7.6px]">
-                {item.tdText1}
-              </span>
-              <span className="absolute top-[8px] text-[25px]">
+              <span className="text-[clamp(6px,2vw,10px)]">{item.tdText1}</span>
+              <span className="mt-[-6px] mb-[-4px] text-[clamp(14px,6.5vw,34px)]">
                 {item.tdText2}
               </span>
-              <span className="absolute bottom-[2px] text-[8.5px]">
-                {item.tdText3}
-              </span>
+              <span className="text-[clamp(6px,2vw,10px)]">{item.tdText3}</span>
             </div>
           </div>
         </td>
